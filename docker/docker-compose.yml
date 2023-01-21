@@ -51,7 +51,7 @@ services:
       - ../log/ELASTIC:/usr/share/elasticsearch/logs
       - ../shared:/shared
 
-  # port 3000
+  # port 3001
   #
   rails:
     tty: true
