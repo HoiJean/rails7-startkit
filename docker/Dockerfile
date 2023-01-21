@@ -17,7 +17,7 @@
 # docker run -ti iamteacher/rails7:2023.386
 
 # Debian GNU/Linux 11 (bullseye)
-FROM --platform=$BUILDPLATFORM ruby:3.2
+FROM ruby:3.2.0-slim
 ARG BUILDPLATFORM
 RUN echo "$BUILDPLATFORM" > /BUILDPLATFORM
 
